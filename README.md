@@ -1,7 +1,4 @@
 # 3duplanet
-News
-Sure, here's an example of a general "Read Me" file for a Node.js newsletter application that produces daily newsletters based on data-driven analytics from the blockchain and AI integration with the ChatGPT API:
-
 Daily Blockchain Newsletter
 This is a Node.js application that produces a daily newsletter based on data-driven analytics from the blockchain and AI integration with the ChatGPT API. The application uses the following technologies:
 
@@ -36,27 +33,17 @@ SMTP_USERNAME=<your_smtp_username>
 SMTP_PASSWORD=<your_smtp_password>
 EMAIL_FROM=<your_email_address>
 EMAIL_SUBJECT=<your_email_subject>
-Usage
+**Usage**
 To start the application, run the command npm start. This will start the server and the application will be available at http://localhost:3000.
 
 Once the application is running, you can navigate to the homepage and register for an account. After registering, you will be able to subscribe to the daily newsletter.
 
 The application will fetch the latest news from the blockchain and process the data using the ChatGPT API to generate a summary of the news. The summary will be emailed to subscribers once per day.
 
-Contributing
+**Contributing**
 If you would like to contribute to this project, please open a pull request or an issue.
 
-License
-This project is licensed under the MIT License.
-
-
-
-
-Huxley Peckham
-add a section that specfies the license under "The Unlicensed" license for github
-Sure, here's an updated section on licensing with "The Unlicense" for Github:
-
-License
+**License**
 This project is licensed under "The Unlicense". This means that this project is in the public domain and free for anyone to use, modify, distribute, or share for any purpose without any restrictions.
 
 You can find the full text of "The Unlicense" in the UNLICENSE file in the root directory of this project.
