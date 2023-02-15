@@ -2,7 +2,7 @@
 
 ## Introduction
 ### Key Activities:
-Scraping Terrier AI feed for the latest news and trends in emerging tech industries such as NFTs
+Scraping Feed of multiple styles beginning with PDF docs and then twitter accounts creating AI summaries for the latest news and trends in emerging tech industries such as NFTs, Metaverse and AI
 Categorizing news stories and filtering out irrelevant content
 Summarizing news articles with ChatGPT
 Maintaining a database of news stories in real-time
@@ -33,6 +33,12 @@ The AI-powered news aggregator ensures that the newsletter contains only the mos
 
 ## Architecture
 
+| Layer     | Components           | Notes                                                                                  |
+|----------------|-----------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| User Interface | Python, CSS, Website Interface      | N/A               |
+| Services| ChatGPT API, Twitter API, PDFextractor Library, Google Login or email login |  N/A |
+| Network / Protocol | Permissioned, Trusted Execution environment            | N/A                                                            |
+| Infrastructure | Storage, Virtualisation        | n/a                                      |
 ## Data Design
 
 ## User Interface Design
